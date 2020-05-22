@@ -70,6 +70,7 @@
     <junit.jupiter.version>5.4.2</junit.jupiter.version>
     <mockito.version>2.27.0</mockito.version>
     <assertj.version>3.12.2</assertj.version>
+    <p3c.pmd.version>2.0.1</p3c.pmd.version>
 
     <!-- Sonar settings -->
     <version.sonar-packaging.plugin>1.18.0.372</version.sonar-packaging.plugin>
@@ -137,6 +138,11 @@
   </dependencyManagement>
 
   <dependencies>
+    <dependency>
+      <groupId>com.alibaba.p3c</groupId>
+      <artifactId>p3c-pmd</artifactId>
+      <version>${p3c.pmd.version}</version>
+    </dependency>
     <!-- Test dependencies -->
     <dependency>
       <groupId>org.mockito</groupId>
