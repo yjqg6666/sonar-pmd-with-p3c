@@ -148,10 +148,12 @@
             <groupId>com.beust</groupId>
             <artifactId>jcommander</artifactId>
           </exclusion>
+<!--
           <exclusion>
             <groupId>com.google.code.gson</groupId>
             <artifactId>gson</artifactId>
           </exclusion>
+-->
           <exclusion>
             <groupId>org.antlr</groupId>
             <artifactId>antlr4-runtime</artifactId>
